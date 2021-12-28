@@ -1,0 +1,26 @@
+Due to the complication of the codes and the different purposes of each part, I divided each part of the code into different python files. 
+To run the files from the beginning please follow this order:
+1- hemnet_bs4_prcs_salda.py
+2- hemnet_bs4_datamng.py
+3- hemnet_bs4_mdmodel.py
+
+***
+It may take a considerable time to store the data from the beginning so the stored data are provided in JSON files and for testing, you may want
+to only run the last python file. 
+***
+
+***
+For testing you may want to use these samples (data is in Swedish language):
+input:'Please enter your desired kommun:'
+samples: Stockholm, Huddinge, Karlstad, Eskilstuna, Sala
+input: 'Please enter your desired housig type:'
+samples: Lägenheter, Tomter, Radhus
+input:'Please enter the number of rooms:'
+sample: choose a integer (between 1 to 6 is desirable)
+input:'Please enter your desired housig type:'
+sample: choose a number (between 30 to 500 is desirable)
+
+
+NOTICE
+As you may notice, the model is working but the result has very low accuracy!
+This may be resolved by normalizing the data or using the more complex model.
